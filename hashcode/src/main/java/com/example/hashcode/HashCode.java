@@ -20,7 +20,7 @@ public class HashCode {
 
     public static void main(String[] arg) throws Exception {
 
-        File myFile = new File("a_example.txt");
+        File myFile = new File("datasets/a_example.txt");
         Scanner input = new Scanner(myFile);
         String in = "";
         int numberOfImages = Integer.valueOf(input.nextLine());
